@@ -1,15 +1,13 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(40, 1fr);
-  width: 600px;
-  height: 600px;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 .square {
   width: 15px;
   height: 15px;
   border: 1px solid black;
-	transition: background 1s ease;
+  transition: background 1s ease;
 }
 .square:hover{
 	background:green;
