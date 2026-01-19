@@ -8,6 +8,7 @@
   height: 15px;
   border: 1px solid black;
   transition: background 1s ease;
+  background-color :rgb(29, 29, 29);
 }
 .square:hover{
 	background:green;
